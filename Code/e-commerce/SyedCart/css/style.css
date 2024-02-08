@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80px;
+    background-color:teal;
+}
+
+
+
+.logo{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    cursor: pointer;
+    padding-top: 10px;
+    
+}
+
+
+
+.logo img{
+    padding: 0 15px;
+    height: 80px;
+
+}
+
+.navbar{
+    background-color: teal;
+    overflow: hidden;
+    
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(0, 109, 109);
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(221, 221, 221);
+
+    z-index: 1;
+    min-width: 150px;
+
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.input{
+    height: 23px;
+    width: 350px;
+    border-radius: 0.2rem;
+    margin-top: 10px;
+    
+    border: none;
+    outline: none;
+    color: #333;
+    padding: 0px 8px;
+}
+.slider{ 
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.cartitem{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    border-radius: 1px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.cart{
+    margin: auto;
+    background-color:rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.cart-h{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5px;
+}
+
+.lines{
+    display:inline-flex;
+}
+.content{
+    background-color: lightgray;
+    display: flex;
+    height: auto;
+    
+}
+
+.content-contact{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1{
+    background-color:white;
+     height: 450px; 
+     width: 420px;
+     text-align: center; 
+     padding: 20px; 
+     margin-left: 25px;
+     margin-bottom: 25px;
+     margin-top: 25px;
+     border-radius: 20px;
+}
+
+.mainpage{
+    padding: 20px; 
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.productTxt{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    
+}
+
+footer{
+    height: 90px;
+    background-color: teal;
+    color: white;
+} 
+
+
+.blody{
+    display: flex;
+justify-content: center;
+
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cartitem{
+    height: auto;
+    width: auto;
+  }
+  
+.cartitem:hover{
+    width: auto;
+    height: auto;
+  }
+
+
+.centretext{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+.btn{
+
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 20px;
+}
+
+
+.Copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .btn{
+       padding: 1px 1px;
+       cursor: pointer;
+      
+   }
